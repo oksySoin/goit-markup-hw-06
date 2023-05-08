@@ -376,8 +376,12 @@ STUDiO
 }
 .footer-box{
   display: flex;
-  gap: 120px;
+  gap: 80px;  
+  justify-content: space-between;
   align-items: baseline;
+}
+.footer-msg-wrap{
+  margin-right: 40px;
 }
 .logo-footer {
   display: inline-block;
@@ -400,16 +404,22 @@ STUDiO
   gap: 16px;
 }
 
-.subscribe-wrap{
-display: flex;
-gap: 24px;
-align-items: flex-end;
-
+.subscribe-wrap{  
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+}
+.subscribe-wrap span{
+  display:block ;
 }
 .subscribe-input{
   width: 264px;
   height: 40px;
   padding: 8px 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
