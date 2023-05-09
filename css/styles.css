@@ -482,7 +482,7 @@ STUDiO
   left: 50%;
   transform: translate(-50%, -50%);
   width: var(--modal-width);
-  height: 576px;
+  height: 584px;
   transform: translate(-50%, -50%) rotate(0) scale(1);
   padding: 24px;
   padding-top: 72px;  
