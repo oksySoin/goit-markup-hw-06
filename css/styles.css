@@ -584,6 +584,7 @@ STUDiO
   fill: var(--main-color-navy-blue);
 }
 .modal-form-comment{
+  display: block;
   width: 100%;
   height: 120px;
   resize: none;
@@ -629,7 +630,7 @@ STUDiO
   align-items: center;
   letter-spacing: 0.04em;
   padding-bottom: 0;
-  margin-top: 8px;
+  margin-top: 6px;
   margin-bottom: 24px;
 }
 .modal-form-policy-confirm a{
